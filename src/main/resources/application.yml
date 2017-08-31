@@ -26,6 +26,8 @@ spring:
     # 指定静态资源的路径
     resources:
         static-locations: classpath:/static/,classpath:/views/
+    application:
+      name: battle-manager
 
 # Mybatis配置
 mybatis:
@@ -33,3 +35,4 @@ mybatis:
     configLocation: classpath:mybatis.xml
 server:
   port: 8080
+
