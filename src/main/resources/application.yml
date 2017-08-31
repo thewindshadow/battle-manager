@@ -4,7 +4,7 @@
 #        uri-encoding: UTF-8
 #        max-threads: 1000
 #        min-spare-threads: 30
-#    port: 82
+#    port: 8080
 
 # mysql
 spring:
@@ -31,3 +31,5 @@ spring:
 mybatis:
     mapperLocations: classpath:mapper/**/*.xml
     configLocation: classpath:mybatis.xml
+server:
+  port: 8080
