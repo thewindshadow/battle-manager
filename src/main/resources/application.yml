@@ -29,6 +29,7 @@ spring:
     application:
       name: battle-manager
 
+
 # Mybatis配置
 mybatis:
     mapperLocations: classpath:mapper/**/*.xml
